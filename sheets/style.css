@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   text-align: center;
   overflow: hidden;
-  padding-top: 20vh;
+  padding-top: -20vh;
   text-shadow: 0.2vh 0.2vh 0.3vh black;
   animation: fadeIn 4s;
 }
