@@ -93,7 +93,7 @@ h1 {
   align-items: center;
   justify-content: center;
   padding-top: 3vh;
-  margin: 0.3vh;
+  margin: 0.5vh;
   animation: float 6s ease-in-out 0.5s infinite;
 }
 
