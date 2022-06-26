@@ -124,14 +124,14 @@ h1 {
   }
   #mystery {
     position: relative;
-    bottom: 10vh;
+    bottom: 0vh;
     text-align: center;
     width: 200px;
     height: 200px;
   }
   #albumcover {
     position: relative;
-    bottom: 15vh;
+    bottom: 5vh;
     width: 200px;
     height: 200px;
   }
