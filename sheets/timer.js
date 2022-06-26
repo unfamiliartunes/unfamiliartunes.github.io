@@ -8,6 +8,16 @@ const newhead = document.getElementById("newhead");
 const albumcover = document.getElementById("albumcover");
 const releaseDate = new Date("2022-10-14T00:00:00");
 
+if (diff <= 0) {
+  countdown.style.display = "none";
+  newhead.style.visibility = "visible";
+  mystery.style.visibility = "hidden";
+  albumcover.style.visibility = "visible";
+} else {
+  countdown.style.visibility = "visible";
+  mystery.style.visibility = "visible";
+}
+
 function updateCountdown() {
   const currentTime = new Date();
   const diff = releaseDate - currentTime;
@@ -19,16 +29,6 @@ function updateCountdown() {
   hours.innerHTML = h < 10 ? "0" + h : h;
   minutes.innerHTML = m < 10 ? "0" + m : m;
   seconds.innerHTML = s < 10 ? "0" + s : s;
-}
-
-if (diff <= 0) {
-  countdown.style.display = "none";
-  newhead.style.visibility = "visible";
-  mystery.style.visibility = "hidden";
-  albumcover.style.visibility = "visible";
-} else {
-  countdown.style.visibility = "visible";
-  mystery.style.visibility = "visible";
 }
 
 setInterval(updateCountdown, 1000);
