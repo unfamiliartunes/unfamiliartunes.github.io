@@ -10,7 +10,7 @@ const releaseDate = new Date("2022-10-14T00:00:00");
 
 function updateCountdown() {
   const currentTime = new Date();
-  const diff = releaseDate - currentTime;
+  const diff = 0;
   const d = Math.floor(diff / 1000 / 60 / 60 / 24);
   const h = Math.floor(diff / 1000 / 60 / 60) % 24;
   const m = Math.floor(diff / 1000 / 60) % 60;
