@@ -9,7 +9,6 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 48vh;
   overflow: hidden;
   text-shadow: 0.2vh 0.2vh 0.3vh black;
   animation: fadeIn 4s;
@@ -28,26 +27,22 @@ h1 {
 #albumcover {
   filter: drop-shadow(0.2vh 0.2vh 0.3vh black);
   visibility: hidden;
-  position: absolute;
-  display: block;
+  position: relative;
   flex-wrap: wrap;
   justify-content: center;
-  right: 81vh;
-  bottom: 50.5vh;
+  bottom: 40vh;
   animation: float 6s ease-in-out 0.35s infinite, fadeIn 2s ease-in 0.75s;
 }
 
 #mystery {
   filter: drop-shadow(0.2vh 0.2vh 0.3vh black);
   visibility: hidden;
-  position: absolute;
-  display: block;
+  position: relative;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 100%;
   height: auto;
-  right: 81vh;
-  bottom: 50.5vh;
+  bottom: 0vh;
   animation: float 6s ease-in-out 0.35s infinite, fadeIn 2s ease-in 0.75s;
 }
 
@@ -55,7 +50,7 @@ h1 {
   filter: drop-shadow(0.2vh 0.2vh 0.3vh black);
   position: absolute;
   left: 0vh;
-  bottom: 0vh;
+  bottom: -2vh;
   animation: float 6s ease-in-out 0.25s infinite;
 }
 
@@ -63,7 +58,7 @@ h1 {
   filter: drop-shadow(0.2vh 0.2vh 0.3vh black);
   position: absolute;
   right: 0vh;
-  bottom: 1%;
+  bottom: -1vh;
   animation: float 6s ease-in-out 1.1s infinite;
 }
 
@@ -98,7 +93,7 @@ h1 {
   align-items: center;
   justify-content: center;
   padding-top: 3vh;
-  margin: 0.3%;
+  margin: 0.3vh;
   animation: float 6s ease-in-out 0.5s infinite;
 }
 
@@ -120,22 +115,23 @@ h1 {
   #unLogo {
     width: 75px;
     height: 75px;
+    bottom: 1vh;
   }
   #silkenLogo {
     width: 75px;
     height: 75px;
+    bottom: 1vh;
   }
   #mystery {
-    position: absolute;
-    bottom: 50vh;
-    right: 24vw;
+    position: relative;
+    bottom: 10vh;
+    text-align: center;
     width: 200px;
     height: 200px;
   }
   #albumcover {
-    position: absolute;
-    bottom: 50vh;
-    right: 24vw;
+    position: relative;
+    bottom: 30vh;
     width: 200px;
     height: 200px;
   }
