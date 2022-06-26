@@ -31,7 +31,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   bottom: 40vh;
-  animation: float 6s ease-in-out 0.35s infinite, fadeIn 2s ease-in;
+  animation: float 6s ease-in-out 0.35s infinite, fadeIn 2s ease-in .25s;
 }
 
 #mystery {
@@ -43,7 +43,7 @@ h1 {
   max-width: 100%;
   height: auto;
   bottom: 0vh;
-  animation: float 6s ease-in-out 0.35s infinite, fadeIn 2s ease-in;
+  animation: float 6s ease-in-out 0.35s infinite, fadeIn 2s ease-in .25s; 
 }
 
 #silkenLogo {
@@ -72,18 +72,18 @@ h1 {
 }
 
 .oldhead {
-  animation: float 6s ease-in-out 0s infinite, fadeIn 2s ease-in;
+  animation: float 6s ease-in-out 0s infinite, fadeIn 2s ease-in .25s;
 }
 
 .newhead {
   visibility: hidden;
-  animation: float 6s ease-in-out 0.5s infinite, fadeIn 2s ease-in;
+  animation: float 6s ease-in-out 0.5s infinite, fadeIn 2s ease-in .25s;
 }
 
 .countdown {
   visibility: hidden;
   text-align: center;
-  animation: fadeIn 2s ease-in;
+  animation: fadeIn 2s ease-in .25s;
   transform: scale(3);
 }
 
