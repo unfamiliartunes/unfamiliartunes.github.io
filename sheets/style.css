@@ -11,7 +11,7 @@ body {
   text-align: center;
   overflow: hidden;
   text-shadow: 0.2vh 0.2vh 0.3vh black;
-  animation: fadeIn 4s;
+  animation: fadeIn 6s;
 }
 
 body * {
