@@ -10,7 +10,6 @@ body {
   flex-direction: column;
   text-align: center;
   overflow: hidden;
-  padding-top: -20vh;
   text-shadow: 0.2vh 0.2vh 0.3vh black;
   animation: fadeIn 4s;
 }
@@ -23,6 +22,7 @@ h1 {
   color: white;
   text-align: center;
   font-size: 5.2vh;
+  padding-top: 20vh;
 }
 
 #albumcover {
